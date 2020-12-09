@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha Desen. Web</title>
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+    <div id="Turno">
+        <a class="font-weight-light" style="margin-right: 10px; padding-top: 10px; font-size: 25px; color: black; font-style: oblique;">Vez do jogador:</a>
+        <img  src="" border = "0" height="50px" style="margin-bottom: 12px;">
+    </div>
+
+    <br><br>
+
+    <div id="VencedorContainer">
+        <a id="txtVencedor"></a>
+    </div>
+
+    <div class="Table">
+        
+        <div class="linha">
+            <div class="espaco" id="a1" jogada=""></div>
+            <div class="espaco" id="a2" jogada=""></div>
+            <div class="espaco" id="a3" jogada=""></div>
+        </div>
+
+        
+        <div class="linha">
+            <div class="espaco" id="b1" jogada=""></div>
+            <div class="espaco" id="b2" jogada=""></div>
+            <div class="espaco" id="b3" jogada=""></div>
+        </div>
+
+        
+        <div class="linha">
+            <div class="espaco" id="c1" jogada=""></div>
+            <div class="espaco" id="c2" jogada=""></div>
+            <div class="espaco" id="c3" jogada=""></div>
+        </div>
+    
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div id="button">
+        <center>
+            <button id="btnRecomecar" disabled style="font-style: oblique; font-size: larger; color: black;"><a class="font-weight-light">Recomeçar o Jogo</a></button>
+        </center>
+    </div>
+      
+
+<script type="text/javascript" src="game.js"></script> 
+
+<audio id="audio">
+    <source src="Música/Mondo Loops - Hazey Blue.mp3" type="audio/mp3">
+</audio>
+ 
+<footer id="developers" style="float: left;">
+    <a style="color: white;" href="https://www.instagram.com/drogaeolinks/" target="_blank">Lincoln Andrade</a> <br> <a style="color: white;" href="https://www.instagram.com/naldinho_po/" target="_blank">Aguinaldo Lucas</a>
+</footer>
+
+<div id="button-audio">
+    <center>
+        <button id="playButt" onclick="document.getElementById('audio').play()">Play</button>
+        <button id="pauseButt" onclick="document.getElementById('audio').pause()">Pause</button>
+        <button id="volmaButt" onclick="document.getElementById('audio').volume+=0.1">Volume +</button>
+        <button id="volmeButt" onclick="document.getElementById('audio').volume-=0.1">Volume -</button>
+    </center>
+</div>
+
+</body>
+</html>

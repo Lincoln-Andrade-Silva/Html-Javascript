@@ -1,0 +1,203 @@
+body
+{
+    background-image: url(imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+#title
+{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#butt
+{
+    display: flex;
+    border: 3px solid rgb(255, 255, 255);
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.513);
+    font-size: 10px;
+}
+
+#dvjogador
+{
+    width: 800px;
+    height: 300px; 
+    position:absolute;
+    color: white;
+    float: left;
+    top:   244px;
+}
+
+#corda
+{
+    position: absolute;
+    left: 510px;
+    right: 0px;
+    top: -77px;
+}
+
+#cabeca
+{
+    position: absolute;
+    left: 480px;
+    right: 0px;
+    top: -20px;
+}
+
+#corpo
+{
+    position: absolute;
+    left: 485px;
+    right: 0px;
+    top: 15px;
+}
+
+#perna
+{
+    position: absolute;
+    left: 493px;
+    right: 0px;
+    top: 95px;
+}
+.letra
+{
+    width: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2px;
+    display: none;
+    color: black;
+}
+
+.letraj
+{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+#dvdisplay
+{
+    display: block;
+}
+
+input
+{
+    margin-left: 15px;
+}
+
+#dvmsg
+{
+    font-size: 20px;
+}
+
+#playButt
+{
+    font-size: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.52);;
+}
+
+#pauseButt
+{
+    font-size: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.52);;
+}
+
+
+#volmaButt
+{
+    font-size: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.52);
+}
+
+
+#volmeButt
+{
+    font-size: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.52);
+    margin-top: 500px;
+}
+
+#developers
+{
+    margin-left: 90%;
+}
+
+#NovaPal
+{    
+    display: flex;
+    border: 3px solid rgb(255, 255, 255);
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.513);
+    font-size: 10px;
+}
+
+#msc
+{
+    margin-top: -60px;
+}

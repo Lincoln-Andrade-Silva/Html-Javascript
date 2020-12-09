@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário01</title>
+
+    <style>
+        legend {
+            font-size: large;
+        }
+
+        .imagem {
+            float: right;
+            margin: 1px 4px 0 0;
+            padding: 3px;
+            background-color: #ffffff;
+            border: 1px solid black;
+        }
+
+        div#colunaDireita {
+            margin-left: 50%;
+            padding-left: 25em;
+            padding-top: 0em;
+
+
+        }
+
+        div#colunaEsquerda {
+            margin-right: 11%;
+            margin-left: 1%;
+            padding-top: 0em;
+            margin-top: 0;
+        }
+
+        div#coluna2 {
+
+            padding-left: 55em;
+            margin-right: -13%;
+
+        }
+
+        div#ultima {
+            margin-right: 25%;
+            margin-left: 0%;
+            padding-top: 0em;
+            margin-top: 0;
+        }
+
+        label {
+
+            display: inline;
+            text-align: left;
+
+
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+<form method="GET" action="Enviar">
+
+
+    <center>
+        <b>AVALIAÇÃO DE FERIDAS</b>
+    </center>
+
+    <div id="colunaDireita">
+        <a
+                style="font-size: large;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localização</a>
+
+        <img class="imagem" src="corpo.png" width="270px">
+
+
+    </div>
+    <br>
+    <br>
+
+
+    <div id="colunaEsquerda">
+        <fieldset style="width: 72%;">
+
+            <legend align="left">Indentificação</legend>
+            <br>
+            <label style="font-size: medium;" for="pront">Prontuário:</label>
+            <input id="pront" type="text" name="Prontuário" size="50" \>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label style="font-size: medium;" for="data">Data: </label>
+                <input id="data" type="date" name="Data" \>
+
+            </a>
+
+            <br>
+            <br>
+
+
+            <label style="font-size: medium;" for="Nome">Nome Completo:</label>
+            <input id="Nome" type="text" name="Nome" size="92" \>
+
+            <a>&nbsp;
+                <label>Sexo: </label>
+                <select name="Sexo">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Outro">Outro</option>
+                </select>
+
+            </a>
+
+            <br>
+            <br>
+
+
+            <label style="font-size: medium;" for="Data de Nascimento">Data de Nascimento:</label>
+            <input id="Data De Nascimento" type="date" name="Data de Nascimento" \>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label style="font-size: medium;" for="idade">Idade: </label>
+                <input id="idade" type="text" name="idade" size="2" \>
+
+            </a>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                <label style="font-size: medium;" for="Ocupação">Ocupação: </label>
+                <input id="Ocupação" type="text" name="ocupação" size="35" \>
+            </a>
+
+            <br>
+            <br>
+            <label style="font-size: medium;" for="Peso">Peso: </label>
+            <input id="Peso" type="text" name="Peso" size="4" \>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label style="font-size: medium;" for="Altura">Altura: </label>
+                <input id="Altura" type="text" name="Altura" size="4" \>
+
+            </a>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label style="font-size: medium;" for="IMC">IMC: </label>
+                <input id="IMC" type="text" name="IMC" size="4" \>
+
+            </a>
+        </fieldset>
+
+
+        <fieldset style="width: 72%;">
+
+            <legend>Histórico</legend>
+            <br>
+            <label style="font-size: medium;" for="Tipo da Ferida">Tipo da Ferida: </label>
+            <input id="Tipo da Ferida" type="text" name="Tipo da Ferida" size="48" \>
+
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label style="font-size: medium;" for="Tempo de Evolução">Tempo de Evolução:</label>
+                <input id="Tempo de Evolução" type="text" name="Tempo de Evolução" size="35" \>
+            </a>
+
+            <br>
+            <br>
+
+            <label style="font-size: medium;" for="Tratamentos Anteriores">Tratamentos Anteriores: </label>
+            <input id="Tratamentos Anteriores" type="text" name="Tratamentos Anteriores" size="107" \>
+
+            <br>
+            <br>
+
+            <label> Recidivas? </label>
+            <input type="radio" value="Sim" name="Recidivas" style="color: black  ;">Sim
+            <input type="radio" value="Não" name="Recidivas" style="color: black  ;">Não
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label class="freqreci" style="font-size: medium;" for="Frenquência de recidivas">Frenquência de
+                    recidivas:
+                </label>
+                <input id="Frenquência de recidivas" type="text" name="Frenquência de recidivas" size="64" \>
+            </a>
+
+            <BR>
+            <BR>
+
+            <label> Alergias? </label>
+            <input type="radio" value="Sim" name="Alergias" style="color: black  ;">Sim
+            <input type="radio" value="Não" name="Alergias" style="color: black  ;">Não
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label class="QuaisAlergias" style="font-size: medium;" for="QuaisAlergias">Quais? </label>
+                <input id="QuaisAlergias" type="text" name="QuaisAlergias" size="83" \>
+            </a>
+
+            <br>
+            <br>
+            <a>
+                <label class="Doenças Sistemicas" style="font-size: medium;" for="Doenças Sistemicas">Doenças Sistemicas
+                    Associadas: </label>
+            </a>
+            <br>
+            <br>
+            <input value="DM" type="checkbox" name="DM" \>DM
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </a> <input value="Cancêr" type="checkbox" name="Cancêr" \>Cancêr
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </a> <input value="Arritimia cardíaca" type="checkbox" name="Arritimia cardíaca" \>Arritimia cardíaca
+            <br>
+            <input value="HAS" type="checkbox" name="HAS" \>HAS
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </a> <input value="AVC" type="checkbox" name="AVC" \>AVC
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </a> <input value="Hipotireodismo" type="checkbox" name="Hipotireodismo" \>Hipotireodismo
+            <br>
+            <input value="ICC" type="checkbox" name="ICC" \>ICC
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </a> <input value="Dislipidemia" type="checkbox" name="Dislipidemia" \>Dislipidemia
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+
+            <a>&nbsp;&nbsp;
+                <label class="Outras" style="font-size: medium;" for="Outras">Outras: </label>
+                <input id="Outras" type="text" name="Outras" size="75">
+            </a>
+
+            <br>
+            <br>
+            <a>&nbsp;&nbsp;
+                <label class="Medicamentos" style="font-size: medium;" for="Medicamentos">Medicamentos em Uso:</label>
+                <input id="Medicamentos" type="text" name="Medicamentos" size="106">
+            </a>
+
+        </fieldset>
+
+
+        <br>
+
+
+        <fieldset style="width: 72%;">
+            <legend>Fatores de Risco para Cronificação da Úlcera</legend>
+            <br>
+
+            <label class="Tabagismo" style="font-size: medium;" for="Tabagismo">Você pratica o Tabagismo ? </label>
+            <input value="Sim" type="radio" name="Tabagismo" \>Sim
+            <input value="Não" type="radio" name="Tabagismo" \>Não
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label class="TabagismoObs" style="font-size: medium;" for="TabagismoObs">Obs:</label>
+                <input type="text" id="TabagismoObs" id="TabagismoObs" size="76">
+
+            </a>
+
+            <br>
+            <br>
+
+            <label class="Etilismo" style="font-size: medium;" for="Etilismo">Você pratica Etilismo? </label>
+            <input value="Sim" type="radio" name="Etilismo" \>Sim
+            <input value="Não" type="radio" name="Etilismo" \>Não
+
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label class="EtilismoObs" style="font-size: medium;" for="EtilismooObs">Obs:</label>
+                <input type="text" id="EtilismoObs" id="EtilismoObs" size="76">
+            </a>
+
+            <br>
+            <br>
+
+            <label class="Desnutrição" style="font-size: medium;" for="Desnutrição">Desnutrição: </label>
+            <input value="Sim" type="radio" name="Desnutrição" \>Sim
+            <input value="Não" type="radio" name="Desnutrição" \>Não
+
+            <br>
+            <br>
+
+            <label class="Nutricionista" style="font-size: medium;" for="Nutricionista">Acompanhamento com
+                Nutricionista:
+            </label>
+            <input value="Sim" type="radio" name="Nutricionista" \>Sim
+            <input value="Não" type="radio" name="Nutricionista" \>Não
+
+            <br>
+            <br>
+
+            <label class="Higiene" style="font-size: medium;" for="Higiene">Higiene: </label>
+            <input value="Boa" type="radio" name="Higiene" \>Boa
+            <input value="Regular" type="radio" name="Higiene" \>Regular
+            <input value="Ruim" type="radio" name="Higiene" \>Ruim
+            <input value="Precária" type="radio" name="Higiene" \>Precária
+
+            <br>
+            <br>
+
+            <label class="Mobilidade" style="font-size: medium;" for="Mobilidade">Mobilidade:</label>
+            <input type="radio" value="Independente" name="Mobilidade">Independente
+            <input type="radio" value="Parcialmente Independente" name="Mobilidade">Parcialmente Independente
+            <input type="radio" value="CadeiraDeRodas" name="Mobilidade">Cadeira de Rodas
+            <input type="radio" value="Acamado" name="Mobildade">Acamado
+
+
+        </fieldset>
+
+        <div id="ultima">
+            <fieldset>
+
+                <legend>Características da Ferida</legend>
+                <br>
+                <br>
+                <label style="font-size: medium;" for="Comprimento">Comprimento:</label>
+                <input id="Comprimento" type="text" name="comprimento" size="8">cm
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label style="font-size: medium;" for="Largura">Largura:</label>
+                    <input id="Largura" type="text" name="Largura" size="8">cm
+                </a>
+                <br>
+                <br>
+
+                <label> Quantidade de exsudato: </label>
+                <br>
+                <br>
+                <input type="radio" value="Seca" name="QntDeExsu" style="color: black  ;">Seca
+                </a>
+                <br>
+
+                <input type="radio" value="Leve" name="QntDeExsu" style="color: black  ;">Leve (1 a 2 ml/24hrs)
+                </a>
+                <br>
+
+                <input type="radio" value="Moderada" name="QntDeExsu" style="color: black  ;">Moderada (2 a 5 ml/24hrs)
+                </a>
+                <br>
+
+                <input type="radio" value="Intensa" name="QntDeExsu" style="color: black  ;">Intensa (mais que
+                5ml/24hrs)
+                </a>
+                <br>
+                <br>
+                <label> Tipo de exsudato: </label>
+                <br>
+                <br>
+
+                <input type="radio" value="Serroso" name="TipoExsu" style="color: black;">Serroso
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </a> <input type="radio" value="Serrososanguíneo" name="TipoExsu" style="color: black;">Serrososanguíneo
+                </a>
+
+                <br>
+
+
+                <input type="radio" value="Sanguíneo" name="TipoExsu" style="color: black;">Sanguíneo
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+                <input type="radio" value="Purulento" name="TipoExsu" style="color: black;">Purulento
+                </a>
+
+                <br>
+                <br>
+
+                <label> Tipos de tecidos presentes: </label>
+                <br>
+                <br>
+
+
+                <input type="radio" value="Necrótico" name="TipoTecido" style="color: black;">Necrótico
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+                <input type="radio" value="Granulação" name="TipoTecido" style="color: black;">Granulação
+                </a>
+
+                <br>
+
+
+                <input type="radio" value="Crosta" name="TipoTecido" style="color: black;">Crosta
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </a> <input type="radio" value="Epitelização" name="TipoTecido" style="color: black;">Epitelização
+                </a>
+
+                <br>
+                <br>
+
+                <label for="OutrosSintomas"> Sinais e sintomas de infecção: </label>
+                <br>
+                <br>
+                <input type="radio" value="Ausente" name="InfecSinais" style="color: black;">Ausente
+                <br>
+                <input type="radio" value="AumentoDaDor" name="InfecSinais" style="color: black;">Aumento da dor
+                <BR>
+                <input type="radio" value="OdorFético" name="InfecSinais" style="color: black;">Odor fético
+                <br>
+                <input type="radio" value="Eritema" name="InfecSinais" style="color: black;">Eritema
+                <br>
+                <input type="radio" value="CalorLocal" name="InfecSinais" style="color: black;">Calor local
+                <br>
+                <input type="radio" value="Ruptura" name="InfecSinais" style="color: black;">Ruptura da ferida
+                <br>
+                <br>
+                Outros :<input type="text" id="OutrosSintomas" name="OutrosSintomas" size="11  0">
+
+
+        </div>
+    </div>
+
+
+    </fieldset>
+
+    <center>
+
+        <input type="submit" value="Enviar" style="color:black;font-size: small; background-color: white">
+</form>
+
+</center>
+
+</body>
+
+</html>

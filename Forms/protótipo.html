@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        label {
+
+            display: inline-block;
+            width: 100px;
+            text-align: left;
+
+        }
+    </style>
+</head>
+
+
+<body>
+<form method="GET" action="logar">
+
+    <label for="usu" style="color:black;">Login</label>
+    <input id="usu" type="text" style="color: black  ; background-color: white;" placeholder="Digite seu login"
+           name="Login">
+
+    <br>
+
+
+    <label for="pas" style="color:black;">Senha</label>
+    <input id="pas" type="password" style="color: black  ; background-color: white;" name="Senha">
+
+    <br>
+
+
+    <label>Turno:</label>
+    <input type="radio" value="Manha" name="turno" style="color: black  ;">Manhã
+    <input type="radio" value="Tarde" name="turno" style="color: black  ;">Tarde
+    <input type="radio" value="Noite" name="turno" style="color: black  ;">Noite
+
+
+    <br>
+    <br>
+
+    <label>Utiliza carro para meio de transporte ?</label>
+    <select name="Carro">
+        <option value="Sim">Sim</option>
+        <option value="Não">Não</option>
+        <option value="As Vezes">As Vezes</option>
+    </select>
+
+    <br>
+    <br>
+
+    <label>Esportes Favoritos:</label>
+    <input type="checkbox" value="Basquete" name="Esporte"> Basquete
+    <input type="checkbox" value="Futebol" name="Esporte"> Futebol
+    <input type="checkbox" value="Volei" name="Esporte"> Volei
+    <input type="checkbox" value="Outros" name="Esportes"> Outros
+
+    <br>
+    <br>
+
+    <label for="email" style="color:black;">E-Mail:</label>
+    <input id="email" type="email" style="color: black  ; background-color: white;" placeholder="Digite seu e-mail"
+           name="E-Mail">
+
+
+    <br>
+    <br>
+
+
+    <label for="data">Data:</label>
+    <input id="data" type="date" name="data">
+
+
+    <br>
+    <br>
+    <label for="coments">Comentários</label>
+    <textarea id="coments" name="Comentários"></textarea>
+
+
+    <br>
+    <br>
+
+
+    <input type="submit" value="Entrar" style="color:black;font-size: small; background-color: white">
+
+
+</form>
+
+</body>
+
+
+</html>

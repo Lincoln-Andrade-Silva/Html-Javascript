@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário3</title>
+
+    <style>
+        table {
+            margin-left: 1%;
+            margin-right: 1%;
+            border-style: hidden;
+        }
+
+        td {
+            height: 40px;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            padding: px;
+        }
+
+        .Coluna1 {
+            transform: rotate(270deg);
+        }
+
+        fieldset {
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            padding: 5px;
+            border: 2px black solid;
+        }
+
+        .um {
+            border: 1px solid black;
+        }
+
+        label {
+            position: relative;
+        }
+
+        input {
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<center><b style="font-size: large;"> SINAN </b></center>
+
+<b>República Federativa do Brasil <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ministério da Saúde</b>
+
+<center><a style="font-size: large;"> SISTEMA DE INFORMAÇÃO DE AGRAVOS DE NOTIFICAÇÃO
+    <br>FICHA DE NOTIFICAÇÃO /
+    INVESTIGAÇÃO <b> HANSENÍASE</b></a></center>
+
+<br>
+
+<fieldset>
+
+    <b style="font-size: medium;">Caso confirmado de Hanseníase: </b>
+    <a style="font-size: medium;">a pessoa que apresenta uma ou mais das seguintes características e que requer
+        poliquimioterapia: - lesão(ões) de pele com alteração de sensibilidade; acometimento de nervo(s) com
+        espessamento neural; baciloscopia positiva.</a>
+
+
+</fieldset>
+
+<br>
+<br>
+
+<form method="GET" action="enviar">
+
+    <table border="1">
+
+        <tr>
+
+            <td rowspan="4" style="width: 30px; height: 300px; border-top-style: hidden;">
+
+                <div class="Coluna1">
+
+                    <a style="font-size: large;"> Dados Gerais </a>
+
+                </div>
+
+            </td>
+
+
+            <td style="width: 1250px; border-top-style: hidden;">
+
+                <span class="um">&nbsp;1&nbsp;</span>
+
+                <label for="TipoDeNotificação"></label>
+                <a style="font-size: medium;">Tipo de Notificação</a>
+
+                <br>
+                <br>
+
+                <input id="TipoDeNotificação" type="text" size="199px" maxlength="199"
+                       style="font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td style="border-top-style: hidden;">
+
+                <span class="um">&nbsp;2&nbsp;</span>
+
+                <label for="Agravo / Doença"></label>
+                <a style="font-size: medium;">Agravo / Doença </a>
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <a style="font-size: x-large;">|</a> <a style="font-size: medium;">Código (CID 10)</a> <a
+                    style="font-size: x-large;">|</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span class="um">&nbsp;3&nbsp;</span>
+
+                <label for="Data da Notificação" style="font-size: small;">Data da Notificação:</label>
+
+                <br>
+
+                <input id="Agravo / Doença" type="text" size="80px" maxlength="80px"
+                       style=" font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp; &nbsp;&nbsp;
+
+                <b style="font-size: large;">HANSENÍASE</b>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <a style="font-size: x-large;">|</a> <a
+                    style="font-size: medium;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 0. 9
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> <a style="font-size: x-large;">|</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input id="Data da Notificação" type="date" style="border: 0px;">
+
+            </td>
+
+        </tr>
+
+
+        <tr>
+
+            <td style="border-top-style: hidden;">
+
+                <span class="um">&nbsp;4&nbsp;</span>
+
+                <label for="UF" style="font-size: small;"><a style="font-size: medium;"> UF: </a></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span class="um">&nbsp;5&nbsp;</span>
+                <label for="Município de Notificação" style="font-size: medium;"> Município de Notificação</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label for="Código(IBGE)" style="font-size: medium;"> Código (IBGE) </label>
+
+                <br>
+                <br>
+
+                <input id="UF" type="text" size="1px" maxlength="2"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input id="Município de Notificação" type="text" size="140px"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input id="Código(IBGE)" type="text" size="13px"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td style="border-top-style: hidden;">
+
+                <span class="um">&nbsp;6&nbsp;</span>
+
+                <label for="Unidade_de_Saúde" style="font-size: small;">
+                    <a style="font-size: medium;"> Unidade de Saúde (ou outra fonte notificadora) </a>
+                </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+
+
+                <label for="Código_Unidade_de_Saúde" style="font-size: small;">
+                    <a style="font-size: medium;"> Código </a>
+                </label>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span class="um">&nbsp;7&nbsp;</span>
+
+                <label for="Data_Do_Diagnóstico" style="font-size: small;">
+                    <a style="font-size: medium;"> Data do Diagnóstico </a>
+                </label>
+
+                <br>
+                <br>
+
+                <input id="Unidade_de_Saúde" type="text" size="130px"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input id="Código_Unidade_de_Saúde" type="text" size="15px"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input id="Data do Diagnóstico" type="date" style="border: 0px;">
+
+
+            </td>
+
+        </tr>
+
+        <td rowspan="5" style="width: 30px; height: 300px;">
+
+            <div class="Coluna1">
+
+                <a style="font-size: large;"> Notificação Individual </a>
+
+            </div>
+
+        </td>
+
+        <tr>
+
+            <td style="width: 1250px; border-top-style: hidden;">
+
+                <span class="um">&nbsp;8&nbsp;</span>
+                &nbsp;
+
+
+                <label for="Nome_do_Paciente" style="font-size: small;">
+                    <a style="font-size: medium;"> Nome do Paciente: </a></label>
+                <input id="Nome_Paciente" name="Nome_Paciente" type="text" size="60"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span class="um">&nbsp;9&nbsp;</span>
+                &nbsp;
+
+                <label for="data_de _Nascimento" style="font-size: medium;">Data de Nascimento:</label>
+
+
+                <input id="data_da_notificação" name="data_da_notificação" type="date" style="border: 0px;">
+
+                </label>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td style="width: 1250px; border-top-style: hidden;">
+
+                <span class="um">&nbsp;10&nbsp;</span>
+
+                <label for="Idade_Paciente" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Idade: </a></label>
+                <input id="Idade_Paciente" name="Idade_Paciente" type="text" size="10"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span class="um">&nbsp;11&nbsp;</span>
+
+                <label for="Sexo_Paciente" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Sexo: </a></label>
+
+                <select name="Sexo_Paciente">
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span class="um">&nbsp;12&nbsp;</span>
+
+                <label for="Gestante" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Gestante: </a></label>
+
+                <select name="Sexo_Paciente">
+                    <option value="1ºTrimestre">1ºTrimestre</option>
+                    <option value="2ºTrimestre">2ºTrimestre</option>
+                    <option value="3ºTrimestre">3ºTrimestre</option>
+                    <option value="Idade Gestacional Ignorada">Idade Gestacional Ignorada</option>
+                    <option value="N">Não</option>
+                    <option value="Não se aplica">Não se aplica</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span class="um">&nbsp;13&nbsp;</span>
+
+                <label for="RaçaCor" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Raça / Cor: </a></label>
+
+                <select name="Raça_Paciente">
+                    <option value="Branco">Branco</option>
+                    <option value="Preto">Preto</option>
+                    <option value="Amarelo">Amarelo</option>
+                    <option value="Pardo">Pardo</option>
+                    <option value="Indígena">Indígena</option>
+                    <option value="Ignorado">Ignorado</option>
+                </select>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td style="width: 1250px; border-top-style: hidden;">
+
+                <span class="um">&nbsp;14&nbsp;</span>
+
+                <label for="Escolaridade" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Escolaridade: </a></label>
+
+                <input id="Escolaridade" name="Escolaridade" type="text" size="80"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp;
+
+                <a style="font-size: x-small;"> <br> (Analfabeto, 1º a 4º série incompelta, 2º a 4º série completa,
+                    5º a 8º série incompelta, 5º a 8º série completa, Ensino Fundamental Completo, Ensino médio
+                    incompelto, Ensino médio completo, Educação superior incompelta, Educação superior completa,
+                    Ignorado, Não se Aplica) </a>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td style="width: 1250px; border-top-style: hidden;">
+
+
+                <span class="um">&nbsp;15&nbsp;</span>
+                <label for="Número do Cartão do SUS" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Número do Cartão do SUS: </a></label>
+
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;
+
+                <span class="um">&nbsp;16&nbsp;</span>
+                <label for="Nome da Mãe" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Nome da Mãe: </a></label>
+
+                <br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input id="Número do Cartão do SUS" name="Número do Cartão do SUS" type="text" size="40"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;
+
+                <input id="Nome da Mãe" name="Nome da Mãe" type="text" size="28"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td rowspan="5" style="border-top-style: hidden;">
+                <div class="Coluna1"> Dado de Residência</div>
+            </td>
+
+            <td>
+
+                <span class="um">&nbsp;17&nbsp;</span>
+
+                <label for="UFResi" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> UF: </a></label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <span class="um">&nbsp;18&nbsp;</span>
+
+                <label for="Município de Residência" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Município de Residência: </a></label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <label for="Código(IBGE)Residência" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Código(IBGE): </a></label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <span class="um">&nbsp;19&nbsp;</span>
+
+                <label for="DistritoResidência" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Distrito: </a></label>
+
+                <br>
+
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input id="UFResi" name="UFResi" type="text" size="4" placeholder="Ex: PR"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <input id="Município de Residência" name="Município de Residência" type="text" size="27"
+                       placeholder="Ex: Curitiba"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <input id="Código(IBGE)Residência" name="Código(IBGE)Residência" type="text" size="13"
+                       placeholder="Ex: xxxx-xxxx"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+
+                <input id="DistritoResidência" name="DistritoResidência" type="text" size="27"
+                       placeholder="Ex: Bateias (Campo Largo)"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+
+            </td>
+
+
+        </tr>
+
+        <tr>
+
+            <td style="border-top-style: hidden;">
+
+                <span class="um">&nbsp;20&nbsp;</span>
+
+                <label for="Bairro" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Bairro: </a></label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+
+                <span class="um">&nbsp;21&nbsp;</span>
+
+
+                <label for="Logradouro" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Logradouro (rua, avenida): </a></label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label for="CódigoResid" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Código: </a></label>
+
+                <br>
+
+                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+                <input id="Bairro" name="Bairro" type="text" size="27" placeholder="Ex: Capão Raso"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp;&nbsp;
+
+                <input id="Logradouro" name="Logradouro" type="text" size="47" placeholder="Ex: Rua pipipi popopo"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+
+                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input id="CódigoRes" name="CódigoRes" type="text" size="27" placeholder="Ex: xxxxx-xxx"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+
+            </td>
+
+
+        </tr>
+
+        <tr>
+
+            <td style="border-top-style: hidden;">
+
+                <span class="um">&nbsp;22&nbsp;</span>
+
+                <label for="NúmeroResi" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Número: </a></label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+
+                <span class="um">&nbsp;23&nbsp;</span>
+
+                <label for="ComplementoResi" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Complemento: </a></label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <span class="um">&nbsp;24&nbsp;</span>
+
+                <label for="GeoCampo1" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Geo Campo 1: </a></label>
+
+                <br>
+
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input id="NúmeroResi" name="NúmeroResi" type="text" size="27" placeholder="Ex: xxxx"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp;&nbsp;
+
+                <input id="ComplementoResi" name="ComplementoResi" type="text" size="47"
+                       placeholder="Ex: sobrado, apt, casa..."
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input id="GeoCampo1" name="GeoCampo1" type="text" size="27"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+
+            </td>
+        </tr>
+
+        <tr>
+
+            <td style="border-top-style: hidden;">
+
+                <span class="um">&nbsp;25&nbsp;</span>
+
+                <label for="Geo Campo 2" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Geo Campo 2: </a></label>
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+
+                <span class="um">&nbsp;26&nbsp;</span>
+
+                <label for="Ponto de Referência" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Ponto de Referência: </a></label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+
+                <span class="um">&nbsp;27&nbsp;</span>
+
+                <label for="CEP" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> CEP: </a></label>
+
+                <br>
+
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input id="Geo Campo 2" name="Geo Campo 2" type="text" size="27"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <input id="Ponto de Referência" name="Ponto de Referência" type="text" size="47"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <input id="CEP" name="CEP" type="text" size="27" placeholder="Ex: xxxxx-xxx"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+
+            </td>
+        </tr>
+
+        <tr>
+
+            <td style="border-top-style: hidden;">
+
+                <span class="um">&nbsp;28&nbsp;</span>
+
+                <label for="TelefoneDDD" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Telefone: </a></label>
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <span class="um">&nbsp;29&nbsp;</span>
+
+                <label for="ZonaResi" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> Zona: </a></label>
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp;
+
+                <span class="um">&nbsp;30&nbsp;</span>
+
+                <label for="PaísResi" style="font-size: small;">
+                    &nbsp;
+                    <a style="font-size: medium;"> País: <a style="font-size: small;">(Caso residir fora do
+                        Brasil)</a> </a></label>
+
+                <br>
+
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input id="TelefoneDDD" name="TelefoneDDD" type="text" size="27" placeholder="Ex: (xxx)xxxxx-xxxx"
+                       style="border: px; font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input id="ZonaResi" name="ZonaResi" type="text" size="47"
+                       placeholder="Ex: Rural, Urbana, Periurbana ou Ignorado"
+                       style="font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input id="PaísResi" name="PaísResi" type="text" size="27"
+                       placeholder="Ex: Rural, Urbana, Periurbana ou Ignorado"
+                       style="font-size: medium; font-size: small; border-top-style: hidden; border-right-style: hidden; border-bottom-color: black;">
+
+            </td>
+
+        </tr>
+
+
+    </table>
+
+
+    <input type="submit" value="Enviar" style="color:black;font-size: small; background-color: white">
+</body>
+
+</html>

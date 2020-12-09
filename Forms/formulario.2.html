@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário2</title>
+    <style>
+        label {
+
+            display: inline;
+            text-align: left;
+
+        }
+
+        div#coluna {
+
+            padding-left: 8vw;
+            padding-right: 8vw;
+
+
+        }
+
+        input {
+            display: inline-block;
+        }
+
+        td {
+            height: 30px;
+            width: 200px;
+            text-align: center;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+
+<form method="GET" action="enviar">
+
+    <center>
+        <b style="font-size: large;">ANEXO III - Formulário de Triagem de casos suspeitos</b>
+    </center>
+
+    <br>
+
+    <img align="left" src="form2.png" height="50px">
+    <img align="right" src="form22.png" height="50px">
+
+    <br>
+    <br>
+    <br>
+
+    <center>
+        <u>
+            <b style="font-size: medium;">
+                TRIAGEM DE GESTANTES E/OU RN COM SUSPEITA DE INFECÇÃO POR VIRUS ZIKA
+            </b>
+        </u>
+    </center>
+
+    <br>
+    <br>
+
+    <div id="coluna">
+
+        <fieldset>
+
+            <label for="data_da_notificação" style="font-size: small;">Data da notificação:</label>
+            <input id="data_da_notificação" name="data_da_notificação" type="date">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="Município_Regional" style="font-size: small;">Regional de sáude/Município:</label>
+            <input id="Município_Regional" name="Município_Regional" type="text" size="40">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="RESP" style="font-size: small;">RESP:</label>
+            <input id="RESP" name="RESP" type="text" size="47">
+
+            <br>
+            <br>
+
+            <label for="Serviço_de_Saúde" style="font-size: small;">Serviço de Saúde:</label>
+
+            <a>&nbsp;</a>
+
+            <input id="Serviço_de_Saúde" name="Serviço_de_Saúde" type="text" size="48">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="Nome Notif" style="font-size: small;">Nome Notif:</label>
+            <input id="Nome Notif" name="Nome Notif" type="text" size="83">
+
+            <br>
+            <br>
+
+            <label for="E-mail_notif" style="font-size: small;">E-mail notif:</label>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <input id="E-mail_notif" name="E-mail_notif" type="email" size="48"
+                   placeholder="Ex: xxxxxxx@xxxx.com.br">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="Telefone" style="font-size: small;">Telefone:</label>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <input id="Telefone" name="Telefone" type="tel" size="30" placeholder="Ex: (xx)xxxxx-xxxx">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="data_quest" style="font-size: small;">Data da analíse do questionário:</label>
+            <input id="data_quest" name="data_quest" type="date" size="45">
+
+            <br>
+            <br>
+
+            <u>
+                <b>
+
+                    <label for="DetecMicro" style="font-size: small;">DETECÇÃO DA MICROCEFALIA:</label>
+
+                </b>
+            </u>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <input type="radio" value="Intra-útero" name="DetecMicro"> Intra-útero
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <input type="radio" value="Pós-parto" name="DetecMicro"> Pós-parto
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <input type="radio" value="Outros" name="DetecMicro"> Outros
+
+            <br>
+
+        </fieldset>
+
+        <BR>
+
+        <fieldset>
+
+            <u>
+                <b>
+
+                    <label for="DadosGest" style="font-size: small;">DADOS DA GESTANTE:</label>
+
+                </b>
+            </u>
+
+            <br>
+            <br>
+
+            <a style="font-size: small;">Nome Completo: </a><input id="DadosGest" type="text" size="158">
+
+            <br>
+            <br>
+
+            <label for="Data_de_Nascimento" style="font-size: small;">Data De Nascimento:</label>
+            <input id="Data_de_Nascimento" type="date">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="GestIdade" style="font-size: small;">Idade:</label>
+            <input id="GestIdade" type="number" size="5">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="Endereço" style="font-size: small;">Endereço:</label>
+            <input id="Endereço" type="text" size="36" placeholder="Ex: Rua xxxxxx xxxxxxx 1234">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="GestMunicípo" style="font-size: small;">Municípo:</label>
+            <input id="GestMunicípo" type="text" size="29">
+
+            <br>
+            <br>
+
+            <label for="GestTel" style="font-size: small;">Tel:</label>
+            <input id="GestTel" type="tel" size="31" placeholder="Ex: (xx)xxxxx-xxxx">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="GestG" style="font-size: small;">G</label>
+            <input id="GestG" type="text" size="5">
+
+            <a>&nbsp;&nbsp;</a>
+
+            <label for="GestP" style="font-size: small;">P</label>
+            <input id="GestP" type="text" size="4">
+
+            <a>&nbsp;&nbsp;</a>
+
+            <label for="GestC" style="font-size: small;">C</label>
+            <input id="GestC" type="text" size="4">
+
+            <a>&nbsp;&nbsp;</a>
+
+            <label for="GestA" style="font-size: small;">A</label>
+            <input id="GestA" type="text" size="4">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="GestDUM" style="font-size: small;">DUM</label>
+            <input id="GestDUM" type="date" size="9">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="GestDPP" style="font-size: small;">DPP</label>
+            <input id="GestDPP" type="date" size="9">
+
+            <br>
+            <br>
+
+            <b>
+                <label for="Gestdoencaspre" style="font-size: small;">Doenças pré existentes:</label>
+            </b>
+
+            <input name="Gestdoencaspre" value="Sim" type="radio">Sim
+            <input name="Gestdoencaspre" value="Não" type="radio">Não
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="DoençasPréGest" style="font-size: small;">Quais: </label>
+            <input id="DoençasPréGest" type="text" size="118">
+
+            <br>
+            <br>
+
+            <b>
+                <label for="alcooltabacodrogsili" style="font-size: small;">Álcool/Tabaco/Drogas ilícitas:</label>
+            </b>
+
+            <input name="alcooltabacodrogsili" value="Sim" type="radio">Sim
+            <input name="alcooltabacodrogsili" value="Não" type="radio">Não
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="Álcool/Tabaco/DrogasIlícitasQuais" style="font-size: small;">Quais: </label>
+            <input id="Álcool/Tabaco/DrogasIlícitasQuais" type="text" size="118">
+
+            <br>
+            <br>
+
+            <b>
+                <label for="Viagem_durante_gest" style="font-size: small;">Viagem durante a gestação:</label>
+            </b>
+
+            <input name="Viagem_durante_gest" value="Sim" type="radio">Sim
+            <input name="Viagem_durante_gest" value="Não" type="radio">Não
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="ViagemDestino" style="font-size: small;">Dest: </label>
+
+            <a>&nbsp;</a>
+
+            <input id="ViagemDestino" type="text" size="51">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="BoltaViaj" style="font-size: small;">Volta:</label>
+            <input id="VoltaViaj" type="date">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="IdaViaj" style="font-size: small;">Ida:</label>
+
+            <a>&nbsp;</a>
+
+            <input id="IdaViaj" type="date">
+
+            <br>
+            <br>
+
+            <b>
+                <label for="Exatema_gest" style="font-size: small;">Histórico de Exatema:</label>
+            </b>
+
+            <input name="Exatema_gest" value="Sim" type="radio">Sim
+            <input name="Exatema_gest" value="Não" type="radio">Não
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="IdaViaj" style="font-size: small;">Em:</label>
+
+            <a>&nbsp;</a>
+
+            <input id="DataExatema" type="date">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="ExatemaDetalhes" style="font-size: small;">Detalhar: </label>
+
+            <a>&nbsp;&nbsp;</a>
+
+            <input id="ExatemaDetalhes" type="text" size="77">
+
+            <br>
+            <br>
+            <b>
+
+                <label for="ExatemaDetalhesOutros" style="font-size: small;">Outros Detalhes/Sintomas: </label>
+
+            </b>
+
+            <a>&nbsp;&nbsp;</a>
+
+            <input name="Exatema_gest_detalhes" value="Sim" type="radio">Sim
+            <input name="Exatema_gest_detalhes" value="Não" type="radio">Não
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="DetalhesExatemaQuais" style="font-size: small;">Quais: </label>
+            <input id="DetalhesExatemaQuais" type="text" size="89">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="ExatemaDetalhesEm" style="font-size: small;">Em:</label>
+
+            <a>&nbsp;</a>
+
+            <input id="ExatemaDetalhesEm" type="date">
+
+            <br>
+            <br>
+
+            <b>
+
+                <label for="MedicamentosGest" style="font-size: small;">Uso de medicamentos durante a gestação:
+                </label>
+
+            </b>
+
+            <a>&nbsp;&nbsp;</a>
+
+            <input name="MedicamentosGest" value="Sim" type="radio">Sim
+            <input name="MedicamentosGest" value="Não" type="radio">Não
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="MedicamentosGestQuais" style="font-size: small;">Quais: </label>
+            <input id="MedicamentosGestQuais" type="text" size="105">
+
+        </fieldset>
+
+        <br>
+
+        <b>ULTRASSONOGRAFIAS GESTACIONAIS:</b>
+
+        <table border="1">
+
+
+            <tr>
+
+                <td></td>
+                <td><b>DATA DO EXAME USG</b></td>
+                <td><b>IG USG <br> (semanas)</b></td>
+                <td><b>CIRCUNFERÊNCIA CRANIANA (mm)</b></td>
+                <td><b>MICROCEFALIA</b></td>
+                <td><b>CALCIFICAÇÕES</b></td>
+                <td><b>OUTROS ACHADOS</b></td>
+
+            </tr>
+
+            <tr>
+
+                <td><b>1º</b></td>
+
+                <td><label for="DataUSG"></label><input id="DataUSG1" type="date" style="border: 0px;"></td>
+
+                <td><label for="IgUsgSemanas1"></label><input id="IgUsgSemanas1" type="text" size="10px"
+                                                              style="border: 0px;" placeholder="xx semanas"></td>
+
+                <td><label for="CircunCrani1"></label><input id="CircunCrani1" type="text" size="10px"
+                                                             style="border: 0px;" placeholder="xx mm"></td>
+
+                <td><label></label>
+                    <select name="MICROCEFALIA1" style="border: 0px;">
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                    </select></td>
+
+                <td><label></label>
+                    <select name="CALCIFICAÇÕES1" style="border: 0px;">
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                    </select></td>
+
+                <td><label for="OutrosAchados"></label><input id="OutrosAchados" type="text" size="10px"
+                                                              style="border: 0px;" placeholder="xxxxxx, xxxxxxx"></td>
+
+            </tr>
+
+            <tr>
+
+                <td><b>2º</b></td>
+
+                <td><label for="DataUSG2"></label><input id="DataUSG2" type="date" style="border: 0px;"></td>
+
+                <td><label for="IgUsgSemanas2"></label><input id="IgUsgSemanas2" type="text" size="10px"
+                                                              style="border: 0px;" placeholder="xx semanas"></td>
+
+                <td><label for="CircunCrani2"></label><input id="CircunCrani2" type="text" size="10px"
+                                                             style="border: 0px;" placeholder="xx mm"></td>
+
+                <td><label></label>
+                    <select name="MICROCEFALIA2" style="border: 0px;">
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                    </select></td>
+
+                <td><label></label>
+                    <select name="CALCIFICAÇÕES2" style="border: 0px;">
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                    </select></td>
+
+                <td><label for="OutrosAchados2"></label><input id="OutrosAchados2" type="text" size="10px"
+                                                               style="border: 0px;" placeholder="xxxxxx, xxxxxxx"></td>
+
+            </tr>
+
+            <tr>
+
+                <td><b>3º</b></td>
+
+                <td><label for="DataUSG3"></label><input id="DataUSG3" type="date" style="border: 0px;"></td>
+
+                <td><label for="IgUsgSemanas3"></label><input id="IgUsgSemanas3" type="text" size="10px"
+                                                              style="border: 0px;" placeholder="xx semanas"></td>
+
+                <td><label for="CircunCrani3"></label><input id="CircunCrani3" type="text" size="10px"
+                                                             style="border: 0px;" placeholder="xx mm"></td>
+
+                <td><label></label>
+                    <select name="MICROCEFALIA3" style="border: 0px;">
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                    </select></td>
+
+                <td><label></label>
+                    <select name="CALCIFICAÇÕES3" style="border: 0px;">
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                    </select></td>
+
+                <td><label for="OutrosAchados3"></label><input id="OutrosAchados3" type="text" size="10px"
+                                                               style="border: 0px;" placeholder="xxxxxx, xxxxxxx"></td>
+
+            </tr>
+
+        </table>
+
+        <a style="font-size: small;">*IG USG entre 08 semanas - 14 semanas, incluir no campo Outros o valor do CNN
+            (comprimento cabeça-nádega em mim)*</a>
+
+        <br>
+        <br>
+
+        <b>SOROLOGIAS MATERNAS:</b>
+
+        <table border="1">
+
+            <tr>
+
+                <td>
+
+                    <b>Exames</b>
+
+                </td>
+
+                <td>
+
+                    <b>1º Trimestre <br> Resultado/Data</b>
+
+                </td>
+
+                <td>
+
+                    <b>2º Trimestre <br> Resultado/Data</b>
+
+                </td>
+
+                <td>
+
+                    <b>3º Trimestre <br> Resultado/Data</b>
+
+                </td>
+
+                <td style="width: 280px;">
+
+                    <b>Tratamento / Observações</b>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    VDRL
+
+                </td>
+
+                <td>
+
+                    <label for="VDRLResult1"></label><input id="VDRLResult1" type="text" size="8px"
+                                                            style="border: 0px;" placeholder="xxxxxxxxx">
+                    <label for="VDRLDate1"></label> <input id="VDRLDate1" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="VDRLResult2"></label><input id="VDRLResult2" type="text" size="8px"
+                                                            style="border: 0px;" placeholder="xxxxxxxxx">
+                    <label for="VDRLDate2"></label> <input id="VDRLDate2" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="VDRLResult3"></label><input id="VDRLResult3" type="text" size="8px"
+                                                            style="border: 0px;" placeholder="xxxxxxxxx">
+                    <label for="VDRLDate3"></label> <input id="VDRLDate3" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="Obs0"></label><input id="Obs0" type="text" size="10px" style="border: 0px;"
+                                                     placeholder="xxxxxx, xxxxxxx">
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    HIV
+
+                </td>
+
+                <td>
+
+                    <label for="HIVResult1"></label><input id="HIVResult1" type="text" size="8px"
+                                                           style="border: 0px;" placeholder="xxxxxxxxx">
+                    <label for="HIVDate1"></label> <input id="HIVDate1" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="HIVResult2"></label><input id="HIVResult2" type="text" size="8px"
+                                                           style="border: 0px;" placeholder="xxxxxxxxx">
+                    <label for="HIVDate2"></label> <input id="HIVDate2" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="HIVResult3"></label><input id="HIVResult3" type="text" size="8px"
+                                                           style="border: 0px;" placeholder="xxxxxxxxx">
+                    <label for="HIVDate3"></label> <input id="HIVDate3" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="Obs1"></label><input id="Obs1" type="text" size="10px" style="border: 0px;"
+                                                     placeholder="xxxxxx, xxxxxxx">
+
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>TOXO</td>
+
+                <td>
+
+                    <label for="ToxoResult1"></label><input id="ToxoResult1" type="text" size="1px"
+                                                            style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;">IgM</a> <label for="ToxoResult2"></label><input id="ToxoResult2"
+                                                                                                    type="text"
+                                                                                                    size="1px"
+                                                                                                    style="border: 0px;"
+                                                                                                    placeholder="xxxx">
+
+                    <a style="font-size: xx-small;"> IgG </a><label for="ToxoDate1"></label> <input id="ToxoDate1"
+                                                                                                    type="date"
+                                                                                                    style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="ToxoResult3"></label><input id="ToxoResult3" type="text" size="1px"
+                                                            style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;">IgM</a> <label for="ToxoResult4"></label><input id="ToxoResult4"
+                                                                                                    type="text"
+                                                                                                    size="1px"
+                                                                                                    style="border: 0px;"
+                                                                                                    placeholder="xxxx">
+
+                    <a style="font-size: xx-small;"> IgG </a><label for="ToxoDate2"></label> <input id="ToxoDate2"
+                                                                                                    type="date"
+                                                                                                    style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="ToxoResult5"></label><input id="ToxoResult5" type="text" size="1px"
+                                                            style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;">IgM</a> <label for="ToxoResult6"></label><input id="ToxoResult6"
+                                                                                                    type="text"
+                                                                                                    size="1px"
+                                                                                                    style="border: 0px;"
+                                                                                                    placeholder="xxxx">
+
+                    <a style="font-size: xx-small;"> IgG </a><label for="ToxoDate3"></label> <input id="ToxoDate3"
+                                                                                                    type="date"
+                                                                                                    style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="Obs2"></label><input id="Obs2" type="text" size="10px" style="border: 0px;"
+                                                     placeholder="xxxxxx, xxxxxxx">
+
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>RUBÉOLA</td>
+
+                <td>
+
+                    <label for="RubéolaResult1"></label><input id="RubéolaResult1" type="text" size="1px"
+                                                               style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;">IgM</a> <label for="RubéolaResult2"></label><input
+                        id="RubéolaResult2" type="text" size="1px" style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;"> IgG </a><label for="RubéolaDate1"></label> <input
+                        id="RubéolaDate1" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="RubéolaResult3"></label><input id="RubéolaResult3" type="text" size="1px"
+                                                               style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;">IgM</a> <label for="RubéolaResult4"></label><input
+                        id="RubéolaResult4" type="text" size="1px" style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;"> IgG </a><label for="RubéolaDate2"></label> <input
+                        id="RubéolaDate2" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="RubéolaResult4"></label><input id="RubéolaResult4" type="text" size="1px"
+                                                               style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;">IgM</a> <label for="RubéolaResult5"></label><input
+                        id="RubéolaResult5" type="text" size="1px" style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;"> IgG </a><label for="RubéolaDate3"></label> <input
+                        id="RubéolaDate3" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="Obs3"></label><input id="Obs3" type="text" size="10px" style="border: 0px;"
+                                                     placeholder="xxxxxx, xxxxxxx">
+
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>CMV</td>
+
+                <td>
+
+                    <label for="CMVResult1"></label><input id="CMVResult1" type="text" size="1px"
+                                                           style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;">IgM</a> <label for="CMVResult2"></label><input id="CMVResult2"
+                                                                                                   type="text"
+                                                                                                   size="1px"
+                                                                                                   style="border: 0px;"
+                                                                                                   placeholder="xxxx">
+
+                    <a style="font-size: xx-small;"> IgG </a><label for="CMVDate1"></label> <input id="CMVDate1"
+                                                                                                   type="date"
+                                                                                                   style="border: 0px;">
+                </td>
+
+                <td>
+
+                    <label for="CMVResult3"></label><input id="CMVResult3" type="text" size="1px"
+                                                           style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;">IgM</a> <label for="CMVResult4"></label><input id="CMVResult4"
+                                                                                                   type="text"
+                                                                                                   size="1px"
+                                                                                                   style="border: 0px;"
+                                                                                                   placeholder="xxxx">
+
+                    <a style="font-size: xx-small;"> IgG </a><label for="CMVDate2"></label> <input id="CMVDate2"
+                                                                                                   type="date"
+                                                                                                   style="border: 0px;">
+                </td>
+
+
+                </td>
+
+                <td>
+
+                    <label for="CMVResult5"></label><input id="CMVResult5" type="text" size="1px"
+                                                           style="border: 0px;" placeholder="xxxx">
+
+                    <a style="font-size: xx-small;">IgM</a> <label for="CMVResult6"></label><input id="CMVResult6"
+                                                                                                   type="text"
+                                                                                                   size="1px"
+                                                                                                   style="border: 0px;"
+                                                                                                   placeholder="xxxx">
+
+                    <a style="font-size: xx-small;"> IgG </a><label for="CMVDate3"></label> <input id="CMVDate3"
+                                                                                                   type="date"
+                                                                                                   style="border: 0px;">
+                </td>
+
+
+                </td>
+
+                <td>
+
+                    <label for="Obs4"></label><input id="Obs4" type="text" size="10px" style="border: 0px;"
+                                                     placeholder="xxxxxx, xxxxxxx">
+
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>OUTRO:</td>
+
+                <td>
+
+                    <label for="Outro1"></label><input id="Outro1" type="text" size="8px" style="border: 0px;"
+                                                       placeholder="xxxxxxxxx">
+                    <label for="OutroDate1"></label> <input id="OutroDate1" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="Outro2"></label><input id="Outro2" type="text" size="8px" style="border: 0px;"
+                                                       placeholder="xxxxxxxxx">
+                    <label for="OutroDate2"></label> <input id="OutroDate2" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="Outro3"></label><input id="Outro3" type="text" size="8px" style="border: 0px;"
+                                                       placeholder="xxxxxxxxx">
+                    <label for="OutroDate3"></label> <input id="OutroDate3" type="date" style="border: 0px;">
+
+                </td>
+
+                <td>
+
+                    <label for="Obs5" ;></label><input id="Obs5" type="text" size="10px" style="border: 0px;"
+                                                       placeholder="xxxxxx, xxxxxxx">
+
+
+                </td>
+
+            </tr>
+
+        </table>
+
+        <u>
+            <b>
+
+                <label for="EvoluçãoGest" style="font-size: medium;"> Evolução de Gestação: </label>
+
+            </b>
+        </u>
+
+        <b>
+
+
+        </b>
+
+        <a>&nbsp;&nbsp;</a>
+
+        <input name="EvoluçãoGest" value="Nascido_Vivo" type="radio"><a style="font-size: small;">Nascido Vivo</a>
+        <input name="EvoluçãoGest" value="Morto" type="radio"><a style="font-size: small;">Morto</a>
+        <input name="EvoluçãoGest" value="Natimorto" type="radio"><a style="font-size: small;">Natimorto</a>
+
+        <br>
+        <br>
+
+        <fieldset>
+
+            <u>
+                <b>
+
+                    <label for="DadosRH" style="font-size: small;">DADOS RH:</label>
+
+                </b>
+            </u>
+
+            <br>
+            <br>
+
+            <label for="DN"></label>
+
+            <a style="font-size: small;">DN: </a>
+
+            <a>&nbsp;</a>
+
+            <input id="DNDate" type="date">
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="TipoParto" style="font-size: small;"> Tipo de Parto: </label>
+
+            <a>&nbsp;&nbsp;</a>
+
+            <input name="TipoParto" value="Vaginal" type="radio"><a style="font-size: small;">Vaginal</a>
+            <input name="TipoParto" value="Cesárea" type="radio"><a style="font-size: small;">Cesárea</a>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="MotivoParto" style="font-size: small;">Motivo: </label>
+            <input id="MotivoParto" type="text" size="93px">
+
+            <br>
+            <br>
+
+            <label for="Sexo" style="font-size: small;"> Sexo: </label>
+
+            <a>&nbsp;</a>
+
+            <input name="Sexo" value="Masculino" type="radio"><a style="font-size: small;">Masculino</a>
+            <input name="Sexo" value="Feminino" type="radio"><a style="font-size: small;">Feminino</a>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="IG" ; style="font-size: small;">IG <a style="font-size: xx-small;">(idade
+                gestacional)</a></label>
+            <input id="IG" type="text" size="1px"><a style="font-size: small;"> semana(s)</a>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="Peso" ; style="font-size: small;">Peso</label>
+            <input id="Peso" type="text" size="1px"><a style="font-size: small;"> gramas</a>
+
+
+            <label for="P/DP_P" style="font-size: small;">(P/DP</label>
+            <input id="P/DP_P" type="text" size="1px"><a style="font-size: small;">)</a>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="E" style="font-size: small;">E:</label>
+            <input id="E" type="text" size="1px"><a style="font-size: small;">cm</a>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="P/DP_E" style="font-size: small;">(P/DP:</label>
+            <input id="P/DP_E" type="text" size="1px"><a style="font-size: small;">)</a>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="1ºPC" style="font-size: small;">1ºPC"0"dia:</label>
+            <input id="1ºPC" type="text" size="1px"><a style="font-size: small;">cm</a>
+            <label for="P/DP_1PC" style="font-size: small;">(P/DP:</label>
+            <input id="P/DP_1PC" type="text" size="1px"><a style="font-size: small;">)</a>
+
+            <br>
+            <br>
+
+            <label for="2ºPC" style="font-size: small;">2ºPC"0"dias:</label>
+            <input id="2ºPC" type="text" size="1px"><a style="font-size: small;">cm</a>
+            <label for="P/DP_2PC" style="font-size: small;">(P/DP:</label>
+            <input id="P/DP_2PC" type="text" size="1px"><a style="font-size: small;">)</a>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="3ºPC" style="font-size: small;">3ºPC"0"dias:</label>
+            <input id="3ºPC" type="text" size="1px"><a style="font-size: small;">cm</a>
+            <label for="P/DP_3PC" style="font-size: small;">(P/DP:</label>
+            <input id="P/DP_3PC" type="text" size="1px"><a style="font-size: small;">)</a>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="4ºPC" style="font-size: small;">4ºPC"0"dias:</label>
+            <input id="4ºPC" type="text" size="1px"><a style="font-size: small;">cm</a>
+            <label for="P/DP_4PC" style="font-size: small;">(P/DP:</label>
+            <input id="P/DP_4PC" type="text" size="1px"><a style="font-size: small;">)</a>
+
+            <br>
+            <br>
+
+            <label for="Malformações" style="font-size: small;">Malformações: </label>
+
+            <a>&nbsp;&nbsp;</a>
+
+            <input name="Malformações" value="Sim" type="radio"><a style="font-size: small;">Sim</a>
+            <input name="Malformações" value="Não" type="radio"><a style="font-size: small;">Não</a>
+
+            <a>&nbsp;</a>
+
+            <label for="MalformaçõesQuais" style="font-size: small;">Quais: </label>
+            <input id="MalformaçõesQuais" type="text" size="136px">
+
+            <br>
+            <br>
+
+            <label for="Oftalmologia" style="font-size: small;">Teste do Olkinho/Oftalmologia: </label>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <input id="Oftalmologia" type="text" size="136px">
+
+            <br>
+            <br>
+
+            <label for="BERA" style="font-size: small;">Teste de Orelinha/BERA: </label>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <input id="BERA" type="text" size="136px">
+
+            <br>
+            <br>
+
+            <label for="TAC/USG-cânio" style="font-size: small;">Exames (TAC/USG-cânio): </label>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <input id="TAC/USG-cânio" type="text" size="136px">
+
+        </fieldset>
+
+        <br>
+
+        <table border="1">
+
+            <tr>
+
+                <td></td>
+
+                <td><B>MATERIAL</td>
+                </b>
+
+                <td><B>DATA DE COLETA</B></td>
+
+                <td style="width: 479px;"><B>EXAME / RESULTADO</B></td>
+
+            </tr>
+
+            <tr>
+
+                <td rowspan="4">GESTANTE</td>
+
+                <td>SORO</td>
+
+                <td><label for="Soro1"></label> <input id="SoroDate1" type="date" style="border: 0px;"></td>
+
+                <td>
+                    <label for="Result1"></label><input id="SoroResult1" type="text" size="70px"
+                                                        style="border: 0px;"
+                                                        placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxx">
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>PLACENTA</td>
+
+                <td><label for="PlacentaResult"></label> <input id="PlacentaDate" type="date" style="border: 0px;">
+                </td>
+
+                <td>
+                    <label for="PlacentaResult"></label><input id="PlacentaResult" type="text" size="70px"
+                                                               style="border: 0px;"
+                                                               placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxx">
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>URINA</td>
+                <td><label for="Urina"></label> <input id="Urina" type="date" style="border: 0px;"></td>
+                <td>
+                    <label for="UrinaResult"></label><input id="UrinaResult" type="text" size="70px"
+                                                            style="border: 0px;"
+                                                            placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxx">
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>OUTROS</td>
+                <td><label for="OutrosGest"></label> <input id="OutrosGestDate" type="date" style="border: 0px;">
+                </td>
+                <td>
+                    <label for="OutroGestResult"></label><input id="OutroGestResul4" type="text" size="70px"
+                                                                style="border: 0px;"
+                                                                placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxx">
+                </td>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td rowspan="5">PN/ABORTO <br> NATIMORTO</td>
+                <td>SANGUE DE CORDÃO UMBILICAL</td>
+                <td><label for="SangueCord"></label> <input id="SangueCord" type="date" style="border: 0px;"></td>
+                <td>
+                    <label for="SangueCord"></label><input id="SangueCord" type="text" size="70px"
+                                                           style="border: 0px;"
+                                                           placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxx">
+                </td>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>SORO</td>
+                <td><label for="Soro6"></label> <input id="SoroDate6" type="date" style="border: 0px;"></td>
+                <td><label for="SoroResult6"></label><input id="SoroResult6" type="text" size="70px"
+                                                            style="border: 0px;"
+                                                            placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxx">
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>LCR</td>
+                <td><label for="LCR"></label> <input id="LCRDate" type="date" style="border: 0px;"></td>
+                <td>
+                    <label for="LCRResult"></label><input id="LCRResult" type="text" size="70px"
+                                                          style="border: 0px;"
+                                                          placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxx">
+                </td>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>URINA</td>
+                <td><label for="UrinaPN/Abor/NatiResult"></label> <input id="UrinaPN/Abor/NatiDate" type="date"
+                                                                         style="border: 0px;"></td>
+                <td>
+                    <label for="UrinaPN/Abor/NatiResult"></label><input id="UrinaPN/Abor/NatiResult" type="text"
+                                                                        size="70px" style="border: 0px;"
+                                                                        placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxx">
+                </td>
+                </td>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>OUTROS</td>
+                <td><label for="OutrosPN/Abor/NatiResult"></label> <input id="OutrosPN/Abor/NatiDate" type="date"
+                                                                          style="border: 0px;"></td>
+                <td>
+                    <label for="OutrosPN/Abor/NatiResult"></label><input id="OutrosPN/Abor/NatiResult" type="text"
+                                                                         size="70px" style="border: 0px;"
+                                                                         placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxxxxxxxxx- xxxxx">
+                </td>
+                </td>
+                </td>
+
+            </tr>
+
+        </table>
+
+        <br>
+
+        <fieldset>
+
+            <u>
+
+                <b style="font-size: small;">CONCLUSÃO </b>
+
+            </u>
+
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <input type="radio" value="Descartado_Diagnóstico_Conclusivo" name="CONCLUSÃO"> Descartado /
+            DiagnósticoConclusivo:
+
+            <label for="Descartado-Diagnóstico_Conclusivo"></label>
+            <input id="Descartado_Diagnóstico_Conclusivo" type="text" size="104px"
+                   placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx ">
+
+            <br>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <input type="radio" value="Confirmado_Encaminhamento" name="CONCLUSÃO"> Confirmado / Encaminhamento:
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="Confirmado_Encaminhamento"></label>
+            <input id="Confirmado_Encaminhamento" type="text" size="104px"
+                   placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx">
+
+            <br>
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <input type="radio" value="Em_Investigação" name="CONCLUSÃO"> Em Investigação:
+
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            <label for="Em_Investigação"></label>
+            <input id="Em_Investigação" type="text" size="104px"
+                   placeholder="xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx - xxxxxxxxxxxx">
+
+
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" value="Enviar" style="color:black;font-size: small; background-color: white">
+</form>
+</div>
+</body>
+
+</html>

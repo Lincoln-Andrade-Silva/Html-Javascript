@@ -1,0 +1,144 @@
+.espaco
+{
+    width: 120px;
+    height: 120px;
+    border: 2px solid cornflowerblue;
+    float: left ;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+body
+{
+    background-image: url(background/Simple-Wallpapers-012.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Turno
+{
+    text-align: center;
+    background: url(background/índice.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: 100px;
+    width: 100%;
+    height: 160px;
+    background-size: 300px;
+    padding-top: 75px;
+    margin-bottom: -20px;
+}
+
+.Table
+{
+    width: 360px;
+    margin: auto;
+    margin-top: -15px;
+}
+
+#btnRecomecar
+{
+    display: flex;
+    border: 3px solid cornflowerblue;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.52);;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#VencedorContainer
+{
+    text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    color: cornflowerblue;
+}
+
+u
+{
+    color: black;
+    font-size: 20px;
+}
+
+#playButt
+{
+    border: 3px solid cornflowerblue;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.52);;
+}
+
+#pauseButt
+{
+    border: 3px solid cornflowerblue;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.52);;
+}
+
+
+#volmaButt
+{
+    border: 3px solid cornflowerblue;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.52);;
+}
+
+
+#volmeButt
+{
+    border: 3px solid cornflowerblue;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.52);;
+}
+
+#button-audio
+{
+    margin-right: 165px;
+}
+
+#developers
+{
+    font-size: larger;
+    margin-left: 8px;
+}
